@@ -1,0 +1,21 @@
+<div class="app-container">
+  
+  <header>
+    <h1>{{ title }}</h1>
+    <nav>
+      <a routerLink="/" routerLinkActive="active">Inicio</a>
+      <a routerLink="/users" routerLinkActive="active">Nuevo Usuario</a>
+      
+    </nav>
+  </header>
+
+  <div class="main">
+    <router-outlet></router-outlet>
+
+  </div>
+
+  
+  <footer>
+    <p>&copy; 2025 Mi Aplicación de Gestión</p>
+  </footer>
+</div>

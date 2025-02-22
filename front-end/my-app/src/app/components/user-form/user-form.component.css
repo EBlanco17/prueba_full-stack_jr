@@ -1,0 +1,25 @@
+
+.create-user-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  
+  .input-field {
+    width: 100%;
+  }
+  
+  
+  button {
+    margin-top: 20px;
+    width: 100%; 
+  }
+  
